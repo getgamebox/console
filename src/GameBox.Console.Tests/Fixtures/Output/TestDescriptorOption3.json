@@ -1,0 +1,9 @@
+{
+    "name" : "--option_name",
+    "shortcut" : "-o",
+    "is_value_accept" : true,
+    "is_value_required" : false,
+    "is_array"          : false,
+    "description"       : "",
+    "default"           : null
+}

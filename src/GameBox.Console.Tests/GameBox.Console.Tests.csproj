@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+	<ApplicationIcon />
+	<OutputType>Library</OutputType>
+	<Version>0.2.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameBox.Console\GameBox.Console.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Fixtures\Output\**" />
+    <EmbeddedResource Remove="Fixtures\Output\**" />
+    <None Update="Fixtures\Output\**" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+</Project>

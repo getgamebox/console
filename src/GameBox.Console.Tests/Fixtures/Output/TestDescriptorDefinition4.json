@@ -1,0 +1,22 @@
+{
+    "arguments" : [
+        {
+            "name" : "argument_name",
+            "is_required" : true,
+            "is_array"    : false,
+            "description" : "",
+            "default"     : null
+        }
+    ],
+    "options"   : [
+        {
+            "name" : "--option_name",
+            "shortcut" : "-o",
+            "is_value_accept" : true,
+            "is_value_required" : true,
+            "is_array"          : false,
+            "description"       : "",
+            "default"           : null
+        }
+    ]
+}

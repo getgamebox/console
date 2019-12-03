@@ -1,0 +1,17 @@
+{
+    "name" : "descriptor/command1",
+    "usage" : [
+        "descriptor/command1 ",
+        "alias1",
+        "alias2"
+    ],
+    "help"  : "command 1 help",
+    "description" : "command 1 description",
+    "definition"  : {
+        "arguments" : [
+        ],
+        "options"   : [
+        ]
+    },
+    "is_hidden"   : false
+}

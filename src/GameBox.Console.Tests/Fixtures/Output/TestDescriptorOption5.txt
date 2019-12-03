@@ -1,0 +1,2 @@
+-o, --option_name=OPTION_NAME  multiline
+                                 option description

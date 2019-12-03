@@ -1,0 +1,6 @@
+src/              export-ignore
+*.sln             export-ignore
+.gitignore        export-ignore
+.gitattributes    export-ignore
+build.ps1         export-ignore
+.github/          export-ignore
