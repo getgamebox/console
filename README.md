@@ -1,4 +1,4 @@
-# GameBox Console Framework
+# GameBox Console Framework ![](https://github.com/getgamebox/console/workflows/gamebox-console/badge.svg)
 
 The GameBox console component eases the creation of beautiful and testable command line interfaces.
 
