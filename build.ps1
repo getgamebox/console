@@ -2,6 +2,7 @@ param(
 [string]$version="master-dev"
 )
 
+$dist = ".dist"
 $root = (Get-Item -Path ".\").FullName
 $publishDir = $root + "\src\GameBox.Console\bin\Release\netstandard2.0\publish"
 $version = $version.Trim()
@@ -66,7 +67,18 @@ if($LastExitCode){
 	exit(1)
 }
 
-cp $publishDir\* dist -Recurse
+if(Test-Path -Path $dist)
+{
+	Remove-Item $dist -Recurse
+}
+
+mkdir $dist
+mkdir $dist\netstandard2.0
+cp $publishDir\* $dist\netstandard2.0 -Recurse
+cp LICENSE $dist
+cp CHANGELOG.md $dist
+cp README.md $dist
+cp bucket.json $dist
 
 $env:BUCKET_PROJECT_VERSION=$versionNormalized.trim()
 $env:BUCKET_FILE_VERSION=$fileVersion.trim()

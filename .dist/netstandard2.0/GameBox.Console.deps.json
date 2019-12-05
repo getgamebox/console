@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "GameBox.Console/0.2.0-alpha.1+d0c81b8": {
+      "GameBox.Console/0.2.0-alpha.1+4223d0c": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "3.1.0-beta3-final",
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.2",
@@ -85,7 +85,7 @@
     }
   },
   "libraries": {
-    "GameBox.Console/0.2.0-alpha.1+d0c81b8": {
+    "GameBox.Console/0.2.0-alpha.1+4223d0c": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
